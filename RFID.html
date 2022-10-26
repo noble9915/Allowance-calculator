@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<title>RFID TEST</title>
+<style>
+  table {
+    width: 100%;
+    border: 4px solid #FACC2E;
+    border-collapse: collapse;
+	text-align: center;
+  }
+  th, td {
+    border: 1px solid #FACC2E;
+	padding: 10px;
+  }
+  button {
+
+    width:100px;
+    background-color: #f8585b;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+	border-radius:10px;
+}
+
+</style>
+</head>
+<body>
+<div style="padding:20 50 0 50"> 
+	<table class="table">
+		<tr>
+			<td style="width:20%; font-size:30px;">&nbsp;</td>
+			<td style="width:60%; text-align:center; font-size:40px;">RFID TEST</td>
+			<td style="text-align:right;">
+				<a href="/worktime/list.php?num=1"><button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근목록</button></a>
+			</td>
+		</tr>
+	</table>
+
+	<form method="get" action="/rfid.php">
+        <input type="hidden" name="num" value="1">
+	    <div class="form-group">
+		    <label for="InputRfid">RFID 코드</label>
+		    <input type="text" name="rfid" class="form-control" id="InputRfid" value="22222222">
+	    </div>
+        <div class="form-group">
+		    <label for="InputDate">Test 일자</label>
+		    <input type="date" name="test_date" class="form-control" id="InputDate" value="2019-06-11">
+	    </div>
+        <div class="form-group">
+		    <label for="InputTime">Test 시간</label>
+		    <input type="time" name="test_time" class="form-control" id="InputTime" value="21:20:15">
+	    </div>
+	    <button type="submit" class="btn btn-primary">출/퇴근 RFID 찍기</button>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+
+<html>
+<head>
+<title>사원목록</title>
+<style>
+  table {
+    width: 100%;
+    border: 4px solid #FACC2E;
+    border-collapse: collapse;
+	text-align: center;
+  }
+  th, td {
+    border: 1px solid #FACC2E;
+	padding: 10px;
+  }
+  button {
+
+    width:100px;
+    background-color: #f8585b;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+	border-radius:10px;
+}
+
+</style>
+</head>
+<body>
+<div style="padding:0 50 0 50">
+<table class="table">
+    <tr>
+        <td style="width:20%; font-size:30px;"><img src ="https://mblogthumb-phinf.pstatic.net/MjAxNzAxMDFfMjEw/MDAxNDgzMjcyNzkyMjUy.t_Dlr5A4dakE1fDbijmmq1SKO3jh9h5LfPgZu2xwXssg.lU3X_Gsdzpej1VGBtYq1LKixyIZs3NXp6hTdCXRigVIg.PNG.jshn0107/hogwarts.png?type=w800" width="340" height="150"></td>
+        <td style="width:60%; text-align:center; font-size:40px;">사원 리스트</td>
+        <td style="text-align:right;"><a href="/member/write.php" ><button type="button"
+style="color: #fff; background:#FE642E; font-size:2em; border-radius:0.5em; padding:5px 5px;"
+>사원추가</button></a></td>
+    </tr>
+</table>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+        <th scope="col" class="text-center">번호</th>
+        <th scope="col" class="text-center">사원번호</th>
+		<th scope="col" class="text-center">이름</th>
+        <th scope="col" class="text-center">RFID</th>
+        <th scope="col" class="text-center">전화번호</th>
+        <th scope="col" class="text-center">주소</th>
+		<th scope="col" class="text-center">시급</th>
+		<th scope="col" class="text-center">관리</th>  
+    </tr>
+  </thead>
+  <tbody>
+        <tr>        
+        <th scope="row" class="text-center">1</th>
+        <td class="text-center">1</td>
+		<td class="text-center">홍길동</td>
+		<td class="text-center">22222222</td>
+        <td class="text-center">010-2222-3333</td>
+        <td>부산 사상구 주례로 94</td>
+		<td class="text-center">10000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=1"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=1"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">2</th>
+        <td class="text-center">2</td>
+		<td class="text-center">정예림</td>
+		<td class="text-center">10101011</td>
+        <td class="text-center">010-8640-5727</td>
+        <td>부산시 사하구 하신번영로233 207-1501</td>
+		<td class="text-center">20000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=2"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=2"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">3</th>
+        <td class="text-center">3</td>
+		<td class="text-center">이순신</td>
+		<td class="text-center"></td>
+        <td class="text-center">010-2342-3433</td>
+        <td>서울 광역시 미남동</td>
+		<td class="text-center">12000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=3"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=3"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">4</th>
+        <td class="text-center">4</td>
+		<td class="text-center">민아영</td>
+		<td class="text-center"></td>
+        <td class="text-center">010-4543-8239</td>
+        <td>부산 개금동 543</td>
+		<td class="text-center">30000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=4"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=4"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">5</th>
+        <td class="text-center">5</td>
+		<td class="text-center">나쁜놈</td>
+		<td class="text-center">44444444</td>
+        <td class="text-center">010-2222-3333</td>
+        <td>제주도 우도</td>
+		<td class="text-center">11000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=5"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=5"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">6</th>
+        <td class="text-center">6</td>
+		<td class="text-center">이진범</td>
+		<td class="text-center">585858</td>
+        <td class="text-center">010-4252-2057</td>
+        <td>부산 수영구 수영로666 38 </td>
+		<td class="text-center">24000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=6"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=6"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">7</th>
+        <td class="text-center">7</td>
+		<td class="text-center">박수현</td>
+		<td class="text-center">3333333</td>
+        <td class="text-center">010-2222-2222</td>
+        <td>부산 사하구 괴정</td>
+		<td class="text-center">18000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=7"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=7"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">8</th>
+        <td class="text-center">8</td>
+		<td class="text-center">김재영</td>
+		<td class="text-center">43434343</td>
+        <td class="text-center">010-9999-7777</td>
+        <td>부산 강서구 명지동</td>
+		<td class="text-center">13500</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=8"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=8"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+        <tr>        
+        <th scope="row" class="text-center">14</th>
+        <td class="text-center">9</td>
+		<td class="text-center">예림곤듀</td>
+		<td class="text-center">8766666</td>
+        <td class="text-center">010-3422-4556</td>
+        <td>부산시 해운대구 센텀</td>
+		<td class="text-center">23000</td>
+        <td class="text-center">
+			<a href="/member/edit.php?num=14"> <button type="button"
+			style="color: #fff; background:#F78181; font-size:15; border-radius:0.5em; padding:5px 5px;">수정</button></a>
+			<a href="/worktime/list.php?num=14"> <button type="button"
+			style="color: #fff; background:#74DF00; font-size:14; border-radius:0.5em; padding:5px 5px;">출/퇴근</button></a>
+        </td>
+    </tr>
+      </tbody>
+</table>
+</div>
+</body>
+</html>
