@@ -95,7 +95,7 @@
 ## 5. 데이터베이스 설계
 
 ![ER](https://user-images.githubusercontent.com/72693650/198007625-064ca69e-2e53-4d77-b0e2-6ee3dbd59c3e.png)
-rcontent.com/72693650/198007613-1833d0d4-d46f-4b14-bf46-a8a8588a5e79.png)
+
 
 ## 6. UML diagram
 
