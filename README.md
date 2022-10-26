@@ -27,6 +27,7 @@
 
 1.3.2 구성도[물리적 구성도, 논리적 구성도]
 
+![기능도](https://user-images.githubusercontent.com/72693650/198007978-a080781a-cb57-4691-b3c8-247f3392b957.png)
 
 ## 2. 벤치 마킹
 2.1 벤치마킹 
@@ -66,12 +67,62 @@
 - 평일 근무, 주말 근무, 야간 근무 등 회사에 있으면서 빠짐없이 기록 근무 시간을 기록 해 준다.
 
 ## 4. 화면설계
+4.1 사원리스트 
+
+![화면설계-사원리스트](https://user-images.githubusercontent.com/72693650/198007576-9a26fd34-b265-4a70-b6cd-8ece82a26d6b.png)
+- 설명: 제일 처음으로 보이는 화면, 사원 리스트 표에 각 사원들의 정보 표시
+- 주요기능: 사원번호, 이름, RFID, 전화번호, 주소, 시급 등 개인정보를 보여준다.
+
+4.2 사원추가
+
+![화면설계-사원추가](https://user-images.githubusercontent.com/72693650/198007580-1919744e-6b3f-453c-8c49-ce9e7fa5106f.png)
+- 설명: 첫 화면에서 우측 위 버튼을 누르면 나오는 화면, 사원을 추가 할 수 있다.
+- 주요기능: 사원 정보를 추가 할 수 있디.
+
+4.3 출, 퇴근 기록
+
+![화면설계-출,퇴근기록](https://user-images.githubusercontent.com/72693650/198007582-cf481f5a-ef9d-4d47-aa33-ca9f92cf60ed.png)
+-설명: 버튼을 누라면 출근과 퇴근을 입력 할 수 있다. 달 별로 출력이 된다.
+- 주요기능: 사원의 출, 퇴근 시간과 수당을 볼 수 있다.
+
+4.4 회원 정보 수정
+
+![화면설계-회원정보수정](https://user-images.githubusercontent.com/72693650/198007584-b8f27bf1-f1c5-4784-944e-6f5e7572cf80.png)
+- 설명: 회원 정보를 수정 할 수 있는 페이지
+- 주요기능: 사원 정보를 수정 할 수 있다.
+
 
 ## 5. 데이터베이스 설계
 
+![ER](https://user-images.githubusercontent.com/72693650/198007625-064ca69e-2e53-4d77-b0e2-6ee3dbd59c3e.png)
+rcontent.com/72693650/198007613-1833d0d4-d46f-4b14-bf46-a8a8588a5e79.png)
+
 ## 6. UML diagram
 
+![uml](https://user-images.githubusercontent.com/72693650/198007623-fedd9a9a-cdae-4024-897e-189fa4a2d24d.png)
+
 ## 7. 실행화면
+7.1 사원리스트
+
+![실행화면-사원리스트](https://user-images.githubusercontent.com/72693650/198009577-166fabaf-6b91-4088-b99a-f400b97cd1c5.png)
+
+7.2 사원 추가
+
+![실행화면-사원추가](https://user-images.githubusercontent.com/72693650/198007614-3f4d71af-8ae2-4dc6-95fa-0a38af9ff708.png)
+
+7.3 출, 퇴근 기록
+
+![실행화면-출, 퇴근 기록](https://user-images.githubusercontent.com/72693650/198007602-ac200ea8-5c4a-4331-8b28-fb14e5827884.png)
+
+7.4 회원 정보 수정
+
+![실행화면-회원 정보 수정](https://user-images.githubusercontent.com/72693650/198007603-37d06920-2f6d-4c11-aeb9-497ab4121aae.png)
+
+7.5 아두이노와 연결된 화면
+
+
+![실행화면- 아두이노와 연결된 화면](https://user-images.githubusercontent.com/72693650/198007610-1911f032-f6c5-4317-aaba-bde07a496258.png)
+
 
 ## 8. 동작과정
 1. 기본이 되는 사원 정보 데이터베이스를 만든다.
